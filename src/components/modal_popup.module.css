@@ -1,0 +1,23 @@
+.popup_container {
+  background-color: rgba(75, 75, 75, 0.806);
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  position: fixed;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+ 
+}
+
+.popup_body {
+  width: auto;
+  height: auto;
+  background-color: #fff !important;
+  padding: 30px 20px;
+  border-radius: 20px;
+  border-style: none;
+}
+ 

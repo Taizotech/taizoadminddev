@@ -1,0 +1,76 @@
+// Filename: ToggleSwitch.css
+.container {
+text-align: center;
+}
+.toggle-switch {
+position: relative;
+width: 80px;
+display: inline-block;
+text-align: left;
+top:4px;
+}
+.checkbox {
+display: none;
+}
+.label {
+display: block;
+overflow: hidden;
+cursor: pointer;
+border: 0 solid #bbb;
+border-radius: 20px;
+}
+.inner {
+display: block;
+width: 200%;
+margin-left: -100%;
+transition: margin 0.3s ease-in 0s;
+}
+.inner:before,
+.inner:after {
+float: left;
+width: 50%;
+height: 36px;
+padding: 0;
+line-height: 36px;
+color: #fff;
+font-weight: bold;
+box-sizing: border-box;
+}
+.inner:before {
+content: "ON";
+padding-left: 10px;
+background-color: #169C50;
+color: #fff;
+}
+.inner:after {
+content: " OFF";
+padding-right: 8px;
+padding-left: 10px;
+background-color: #bbb;
+color: #fff;
+text-align: right;
+}
+.switch {
+  display: block;
+  align-items: center;
+  width: 24px;
+  height: 24px; /* Added height for a circular shape */
+//   line-height: 20px;
+  margin: 5px;
+  background: #fff;
+  position: absolute;
+  top: 1;
+  bottom: 1;
+  right: 1; 
+  left: 1;
+  margin-right: 10px;
+  border: 0;
+  border-radius: 50%; /* Make it a circle */
+ transition: all 0.3s ease-in-out 0s;
+}
+.checkbox:checked + .label .inner {
+margin-left: 0;
+}
+.checkbox:checked + .label .switch {
+right: 0px;
+}

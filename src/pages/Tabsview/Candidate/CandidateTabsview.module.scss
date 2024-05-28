@@ -1,0 +1,55 @@
+// .activetag{
+//      border-right: 5px solid rgb(14, 132, 21);
+//   background: #02c04144;
+  
+// }
+.tab_buttons {
+  display: flex;
+}
+
+.tab_buttons {
+  background-color: #fff;
+  color: gray;
+  border: none;
+  padding: 10px 1px;
+  cursor: pointer;
+  margin-bottom: 2px;
+  margin-right: 5px;
+
+  text-align: center;
+}
+
+.tab_hr {
+width:auto;
+  flex-grow: 1;
+  border-bottom: 2px solid #ccc; 
+}
+
+
+.activetag {
+  background-color: #02c04124;
+  color: #169c50;
+  border-bottom: 3px solid #169c50;
+  padding: 8px 10px;
+  width: auto;
+}
+.unactivetag{
+     background-color: #fff;
+  color: #717171;
+//   border-bottom: 3px solid green;
+  padding: 8px 10px;
+  width: auto;
+  
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+  .tab_buttons {
+// width: 250vw;
+ width: auto;
+//  height: auto;
+ overflow: auto;
+}
+.scrolling{
+  width: 150vw;
+  overflow-x: auto;
+}
+}

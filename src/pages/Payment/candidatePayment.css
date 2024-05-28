@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --danger-color:#ff0000;
+    --dark-color:#00000079;
+    --light-color:#fff;
+    --success-color:#008000;
+}
+#container-form{
+   /* background-color: #ff0000; */
+  width:80%;
+}
+.para{
+    color:var(--danger-color);
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--dark-color);
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:20%;
+    height: 50%;
+    background-color:var(--light-color);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.loading-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid var(--light-color);
+    border-top: 4px solid var(--success-color);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 10px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.success-icon {
+    font-size: 80px;
+    color:var(--success-color);
+    margin-bottom: 20px;
+}
+
+.modal-content h3 {
+    margin-top: 0;
+}
+
+.modal-content button {
+    margin-top: 10px;
+}
+@media (max-width:570px) {
+}

@@ -1,0 +1,12 @@
+.active {
+    border-right: 5px solid #169c50;
+    background: black;
+  /* border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px; */
+  }
+  .Notification {
+    cursor: pointer;
+    padding: 15px;
+    font-size: 13px;
+    text-align: left;
+  }

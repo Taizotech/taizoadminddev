@@ -1,0 +1,21 @@
+.timeLineWrp {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.timeLineFilterWrp {
+    position: absolute;
+    background-color: rgb(0, 255, 4);
+    margin: 10 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.timeLineFilterWrp>div {
+    position: relative;
+    background-color: aquamarine;
+    left: 50%;
+    right: 50%;
+}

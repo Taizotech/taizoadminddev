@@ -1,0 +1,387 @@
+// .cross{
+//     background-color: transparent;
+// }
+.personalDetails::-webkit-scrollbar {
+  width: 10px;
+}
+.topcontainer{
+    background-color: #fff !important;
+    padding: 5px 5px;
+}
+.boxwidth {
+    width: 100%;
+    height: 100%;
+}
+.boxcross{
+     width: 100%;
+    height: 100%;
+}
+.CrossStyle{
+    background-color: transparent;
+    color: #fff;
+    font-weight: 900;
+    font-size: 19px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.Createdon{
+    background-color:#dbdbdb ;
+    border-radius: 10px;
+    text-align: center;
+}
+.verticalLine{
+    width: 1px;           
+  height: auto; 
+  background-color: #b1b1b1;
+}
+.CandidatepastDetails{
+    background-color: rgba(255, 0, 0, 0.057);
+    padding: 10px 10px;
+}
+.LiaUserEditSolid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;  
+    border-radius: 50%;  
+    width: 30px;      
+    height: 30px; 
+    cursor: pointer;
+}
+.ThreeOutline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e1e1;
+    border-radius: 50%;  
+    width: 35px;      
+    height: 35px;
+    color: #858484; 
+    display: none;
+
+}
+.scheduleinterview{
+    
+    background-color: #169C50;
+    color: #ffff;
+    border: none;
+    border-radius: 50px;
+    padding: 7px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+.flexContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap; 
+  gap: 10px;
+
+}
+.personalDetails{
+    background-color: #f2f2f2;
+    color: black;
+    height: auto;
+    max-height:72vh;
+    overflow-y: auto;
+    overflow-x: auto;
+        font-size: 13px;
+    //  border-right: 5px solid #d7d5d5 !important;
+}
+
+ .CanDetailsRow{
+    min-width: 300px;
+    padding: 10px;
+    // background-color: #169C50;
+}
+
+
+.DailyDetailsupdate{
+    background-color: #fff;
+    height: auto;
+    max-height:72vh;
+    // max-width: 60vw;
+    width: 65%  ;
+    margin: 5 auto;
+    // min-width: 65vw;
+    // max-width: 50vw;
+    overflow-y: auto;
+    margin-left: 8px;
+}
+.numbersstyle{
+    background-color: #cdcbcb;
+    color: rgb(108, 107, 107);
+    border-radius: 50px;
+    padding: 2px 10px;
+    margin-bottom: 2px;
+}
+.Whatsapnumbersstyle{
+     background-color: #cdcbcb;
+    color: rgb(108, 107, 107);
+    border-radius: 50px;
+    padding: 2px 10px;
+}
+.Phonecall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(26, 179, 26, 0.162);
+    color: #169C50;
+    border-radius: 50%; 
+    border:1px solid #169C50; 
+    width: 30px;      
+    height: 30px; 
+}
+.KeySkills{
+    background-color: #E5DCF0;
+    color: #805fa8;
+    padding: 5px 15px ;
+    width: max-content;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.SendEmail{
+    
+    background-color: #169C50;
+    color: #ffff;
+    border: none;
+    border-radius: 50px;
+    padding: 7px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+.BoxWidthchildComponent{
+    width: 300px;
+    padding: 10px;
+}
+.Emailsendbutton{
+    
+    background-color: #ffffff;
+    color: #169C50;
+    border:1px solid #169C50;
+    // border-radius: 50px;
+    padding: 15px 20px;
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+@media only screen and (min-width:321px) and (max-width:768px)  {
+    .personalDetails{
+    height: auto;
+    max-height:50vh;
+    overflow-y: auto;
+    width: 100vw;
+    // margin-left: 23px;
+    margin-right: auto;
+}
+.boxwidth {
+    width: 100%;
+    // height:auto;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+.DailyDetailsupdate{
+    // min-width: 100vw;
+    width: 95%;
+    //  margin-left: 23px;
+     margin-top: 10px;
+}
+.boxcross{
+     width: 100vw;
+     margin-right: 10px;
+}
+.LiaUserEditSolid,.scheduleinterview{
+    display:none;
+
+}
+.ThreeOutline{
+    display: block;
+}
+
+
+}
+@media only screen and (min-width:1024px) and (max-width:1440px)  {
+    .personalDetails{
+    height: auto;
+    max-height:60vh;
+    overflow-y: auto;
+    // width: 100vw;
+    margin-left: 6px;
+    margin-right: auto;
+}
+.boxwidth {
+    width: 100%;
+    // height:auto;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+.DailyDetailsupdate{
+    // min-width: 65vw;
+     margin-right: 10px;
+     margin-left: 0px;
+}
+.boxcross{
+     width: 100vw;
+     margin-right: 10px;
+}
+
+
+}
+@media only screen and (min-width:998px) and (max-width:1024px)  {
+    .personalDetails{
+    height: auto;
+    max-height:65.6vh;
+    
+    overflow-y: auto;
+    // width: 100vw;
+    font-size: 13px;
+    margin-left: 6px;
+    margin-right: auto;
+}
+.boxwidth {
+ width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.DailyDetailsupdate{
+    // max-width: 65.2vw;
+    // max-width: 50vw;
+     margin-right: 5px;
+     margin-left: 0px;
+}
+.boxcross{
+     width: 100vw;
+     margin-right: 10px;
+}
+.numbersstyle{
+   
+    border-radius: 50px;
+    padding: 2px 8px;
+    margin-bottom: 2px;
+}
+.Whatsapnumbersstyle{
+     background-color: #cdcbcb;
+    color: rgb(108, 107, 107);
+    border-radius: 50px;
+    padding: 2px 10px;
+}
+.Phonecall{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(26, 179, 26, 0.162);
+    color: #169C50;
+    border-radius: 50%; 
+    border:1px solid #169C50; 
+    width: 30px;      
+    height: 30px;
+    font-size: 10px; 
+}
+}
+@media only screen and (min-width:769px) and (max-width:998px)  {
+    .personalDetails{
+    height: auto;
+    max-height:65.6vh;
+    overflow-y: auto;
+    // width: 100vw;
+    font-size: 13px;
+    margin-left: 6px;
+    margin-right: auto;
+}
+.boxwidth {
+ width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.DailyDetailsupdate{
+    // max-width: 50vw;
+     margin-right: 5px;
+     margin-left: 0px;
+}
+.boxcross{
+     width: 100vw;
+     margin-right: 10px;
+}
+.numbersstyle{
+   
+    border-radius: 50px;
+    padding: 2px 8px;
+    margin-bottom: 2px;
+}
+.Whatsapnumbersstyle{
+     background-color: #cdcbcb;
+    color: rgb(108, 107, 107);
+    border-radius: 50px;
+    padding: 2px 10px;
+}
+.Phonecall{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(26, 179, 26, 0.162);
+    color: #169C50;
+    border-radius: 50%; 
+    border:1px solid #169C50; 
+    width: 30px;      
+    height: 30px;
+    font-size: 10px; 
+}
+}
+@media only screen and (min-width:1025px) and (max-width:1097px)  {
+.personalDetails{
+height: auto;
+max-height:65.6vh;
+overflow-y: auto;
+// width: 100vw;
+font-size: 13px;
+margin-left: 6px;
+margin-right: auto;
+}
+.boxwidth {
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+.DailyDetailsupdate{
+// max-width:50vw;
+margin-right: 5px;
+margin-left: 0px;
+}
+.boxcross{
+width: 100vw;
+margin-right: 10px;
+}
+.numbersstyle{   
+border-radius: 50px;
+padding: 2px 8px;
+margin-bottom: 2px;
+}
+.Whatsapnumbersstyle{
+background-color: #cdcbcb;
+color: rgb(108, 107, 107);
+border-radius: 50px;
+padding: 2px 10px;
+}
+.Phonecall{
+display: none;
+align-items: center;
+justify-content: center;
+background-color: rgba(26, 179, 26, 0.162);
+color: #169C50;
+border-radius: 50%; 
+border:1px solid #169C50; 
+width: 30px;      
+height: 30px;
+font-size: 10px; 
+}
+
+}

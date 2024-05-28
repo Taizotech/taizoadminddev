@@ -1,0 +1,49 @@
+.home_wrp {
+  margin: 20px;
+}
+.company_list_wrp {
+  border: rgba(0, 0, 0, 0.24) 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+.company_list_wrp:hover {
+  background-color: rgb(219, 219, 219);
+}
+.company_list_wrp img {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  border: solid rgba(0, 0, 0, 0.308) 1px;
+  padding: 5px;
+}
+
+.company_details_wrp {
+  position: fixed;
+  height: 75vh;
+  width: 45vw;
+  background-color: rgb(248, 248, 248);
+  border: solid rgba(0, 0, 0, 0.308) 1px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* media queries  */
+
+@media only screen and (max-width: 576px) {
+  .home_wrp {
+    margin-left: 0vw;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .home_wrp {
+    margin-left: 0vw;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+}
+/* end of media queries */

@@ -1,0 +1,347 @@
+.buttonLikeRadio {
+  background: #fff; // Change this to your desired button background color
+  color: #169c50; // Change this to your desired button text color
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 15px; // Adjust spacing as needed
+  cursor: pointer;
+  border: 2px solid #169c50;
+  // font-family: ;
+
+  &:hover {
+    background: #138b47;
+    color: #fff;
+    border: none;
+  }
+}
+.MuiRadio-root {
+  display: none;
+}
+
+//
+.chips_wrp > input,
+.select_wrp > input,
+.Attended_wrp > input,
+.Selected_wrp > input,
+.NotAttended_wrp > input,
+.NotSelected_wrp > input,
+.awaiting_wrp > input,
+.Joined_wrp > input,
+.OfferRejected_wrp > input,
+.LeftCompany_wrp > input,
+.willJoining_wrp > input {
+  display: none;
+}
+
+.chips_wrp > input + label,
+.select_wrp > input + label,
+.Attended_wrp > input + label,
+.Selected_wrp > input + label,
+.NotAttended_wrp > input + label,
+.NotSelected_wrp > input + label,
+.awaiting_wrp > input,
+.Joined_wrp > input + label,
+.OfferRejected_wrp > input + label,
+.LeftCompany_wrp > label,
+.willJoining_wrp > input + label {
+  // font-size: 14px;
+  // font-weight: 400;
+  border-radius: 7px !important;
+}
+
+.Attended,
+.Attended_wrp > input:checked + label {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #a08d00;
+  padding: 3px 10px;
+  background: #fef08a;
+  color: #a08d00;
+  cursor: pointer;
+}
+
+.callNotAttend,
+.callNotAttend_wrp > input:checked + label {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #009900;
+  padding: 3px 10px;
+  background: #33ff33;
+  color: #009900;
+  cursor: pointer;
+}
+.willJoining,
+.willJoining_wrp > input:checked + label {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #7b7d7d;
+  padding: 3px 10px;
+  background: #e5e7e9;
+  color: #7b7d7d;
+  cursor: pointer;
+}
+
+.NotAttended,
+.NotAttended_wrp > input:checked + label {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #b65400;
+  padding: 3px 10px;
+  background: #ffa164;
+  color: #b65400;
+  cursor: pointer;
+}
+.Selected,
+.Selected_wrp > input:checked + label {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #169c50;
+  padding: 3px 10px;
+  background: #bbf7d0;
+  color: #169c50;
+  cursor: pointer;
+}
+.Notselected,
+.NotSelected_wrp > input:checked + label {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #7f1d1d;
+  padding: 3px 10px;
+  background: #fecaca;
+  color: #7f1d1d;
+  cursor: pointer;
+}
+
+.joined,
+.Joined_wrp > input:checked + label {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #169c50;
+  padding: 3px 10px;
+  background: #b7ff98;
+  color: #169c50;
+  cursor: pointer;
+}
+.leftCompany,
+.LeftCompany_wrp > input:checked + label {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #fa9e0a;
+  padding: 3px 10px;
+  background: #fa9e0a2c;
+  color: #fa9e0a;
+  cursor: pointer;
+}
+
+.rescheduledChips {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #55559f;
+  padding: 3px 10px;
+  background: #c7d2fe;
+  color: #55559f;
+  cursor: pointer;
+}
+.Awaitingchips {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #8e44ad;
+  padding: 3px 10px;
+  background: #e8daef;
+  color: #8e44ad;
+  cursor: pointer;
+}
+
+.chips_wrp > input:not(:checked) + label {
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid rgb(130, 130, 130);
+  // padding: 6px 10px;
+  background: #e9ecef66;
+
+  cursor: pointer;
+}
+.custom_confirmation_popup {
+  max-width: 500px; /* Adjust the width as per your requirement */
+  width: 100%;
+}
+
+// .chips_wrp>input:checked+.joined {
+//   text-align: center;
+//   border-radius: 15px;
+//   border: 1px solid #2a833d;
+//   padding: 3px 10px;
+//   background: #2a833d24;
+//   color: #2a833d;
+//   cursor: pointer;
+// }
+// .chips_wrp>input:not(:checked)+.joined {
+//   text-align: center;
+//   border-radius: 15px;
+//   border: 1px solid rgb(130, 130, 130);
+//   background: #e9ecef66;
+//   cursor: pointer;
+// }
+
+.rejected_label,
+.OfferRejected_wrp > input:checked + label {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  padding: 3px 10px;
+  background: #636363;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+.chips_wrp > input:not(:checked) + .rejected_label {
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid rgb(130, 130, 130);
+  background: #e9ecef66;
+  // background: #d00a0a;
+  cursor: pointer;
+}
+.FilterHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  // font-family: Cambria;
+}
+.Filterbutton {
+  padding: 8px 30px;
+  background-color: #fff;
+}
+.search {
+  padding: 8px 40px;
+  background-color: #169c33;
+  border: none;
+  color: #fff;
+}
+.Popper {
+  display: flex;
+  justify-content: space-between;
+}
+.popperListWrp {
+  background-color: white;
+  padding: 5px 0px;
+}
+
+.popperListWrp > button {
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  border-style: none;
+  padding: 5px 10px;
+  display: block;
+}
+.popperListWrp > button + input {
+  display: block;
+  width: 100%;
+  // padding: 5px 10px;
+}
+.popperListWrp > button:hover {
+  width: 100%;
+  background-color: rgb(211, 211, 211);
+  // color:#b80f0f;
+}
+.BoxContainerWidth {
+  min-width: 800px;
+  width: auto;
+}
+
+.Container {
+  width: 100%;
+  // max-height: 70vh;
+  // overflow: auto;
+}
+.StyledTableCell {
+  width: auto;
+  font-size: 8px;
+}
+.TableContainer {
+  max-height: 65vh;
+  overflow-y: auto;
+  // height: auto;
+  // font-size: 10px;
+  // width: auto;
+}
+.TableDetails::-webkit-scrollbar {
+  width: 10px;
+}
+.card {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  background-color: lightblue;
+  border: 1px solid #333;
+  padding: 20px;
+  transition: all 0.3s;
+  top: 1px;
+  left: 100px;
+}
+
+.absolute {
+  z-index: 1;
+  position: absolute;
+}
+.no_caret::after {
+  display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .responsive {
+    position: fixed;
+  }
+  .Container {
+    width: 100%;
+  }
+  .StyledTableCell {
+    width: max-content;
+
+    font-size: 8px;
+  }
+  .TableDetails {
+    width: 3000px;
+  }
+  .TableContainer {
+    max-height: 70vh;
+    overflow-y: scroll;
+    font-size: 10px;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 5%;
+  }
+}
+@media (max-width: 992px) {
+  .TableContainer {
+    max-height: 70vh;
+    overflow-y: auto;
+    // width: 80vw;
+    margin-left: 1%;
+    margin-right: 63%;
+    max-width: 100%;
+    font-size: small;
+  }
+  .StyledTableCell {
+    width: 40vw;
+    font-size: 8px;
+  }
+  .FilterHead {
+    margin-left: 25px;
+    margin-right: 1px;
+  }
+  .Popper {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .BoxContainerWidth {
+    min-width: 100px;
+    width: auto;
+  }
+}

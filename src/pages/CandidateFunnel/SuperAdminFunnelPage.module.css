@@ -1,0 +1,492 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.superAdminFunnel {
+  /* background-color: darkblue; */
+  align-self: stretch;
+  position: relative;
+}
+.totalCandidateLeadsFunnelB {
+  width: 459px;
+  height: 52px;
+  position: relative;
+  z-index: 0;
+}
+.div {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-darkslategray-100);
+}
+.totalCandidateLeads,
+.totalCandidateLeadsDataTex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.totalCandidateLeadsDataTex {
+  width: 522px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 20.5px);
+  left: calc(50% - 261px);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.totalCandidateLeads {
+  align-self: stretch;
+  height: 52px;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-3xs);
+  opacity: 1;
+}
+.totalCandidateLeads.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.totalCandidateLeads:hover .totalCandidateLeadsFunnelB {
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.15));
+  cursor: pointer;
+}
+.qualifiedCandidatesLeadFunn {
+  width: 407px;
+  position: relative;
+  height: 52px;
+  z-index: 0;
+}
+.qualifiedCandidates {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.qualifiedCandidateLeadsData {
+  width: 462px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 20.1px);
+  left: calc(50% - 231px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.qualifiedCandidatesLeads {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  opacity: 1;
+}
+.qualifiedCandidatesLeads.animate {
+  animation: 1s ease 0.1s 1 normal forwards scale-up;
+}
+.companySelected:hover .companySelectedFunnelBar,
+.interviewAttended:hover .interviewAttendedFunnelBar,
+.interviewScheduled:hover .interviewScheduledFunnelBar,
+.joined:hover .offerAcceptedFunnelBar,
+.offerAccepted:hover .offerAcceptedFunnelBar,
+.qualifiedCandidatesLeads:hover .qualifiedCandidatesLeadFunn,
+.registered:hover .registeredFunnelBar {
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.15));
+}
+.registeredFunnelBar {
+  width: 354px;
+  position: relative;
+  height: 52px;
+  z-index: 0;
+}
+.registered,
+.registeredDataText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.registeredDataText {
+  width: 402px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 20.6px);
+  left: calc(50% - 200.9px);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.registered {
+  align-self: stretch;
+  justify-content: center;
+  position: relative;
+  opacity: 1;
+}
+.registered.animate {
+  animation: 1s ease 0.2s 1 normal forwards scale-up;
+}
+.interviewScheduledFunnelBar {
+  width: 304px;
+  position: relative;
+  height: 46px;
+  z-index: 0;
+}
+.interviewScheduled,
+.interviewScheduledData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.interviewScheduledData {
+  width: 342px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 20.1px);
+  left: calc(50% - 170.9px);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.interviewScheduled {
+  align-self: stretch;
+  justify-content: center;
+  position: relative;
+  opacity: 1;
+}
+.interviewScheduled.animate {
+  animation: 1s ease 0.3s 1 normal forwards scale-up;
+}
+.interviewAttendedFunnelBar {
+  width: 252px;
+  position: relative;
+  height: 52px;
+  z-index: 0;
+}
+.interviewAttended,
+.interviewAttendedDataText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.interviewAttendedDataText {
+  width: 282px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 20.6px);
+  left: calc(50% - 141px);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.interviewAttended {
+  align-self: stretch;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-3xs);
+  opacity: 1;
+}
+.interviewAttended.animate {
+  animation: 1s ease 0.4s 1 normal forwards scale-up;
+}
+.companySelectedFunnelBar {
+  width: 201px;
+  position: relative;
+  height: 52px;
+  z-index: 0;
+}
+.companySelected,
+.companySelectedDataText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.companySelectedDataText {
+  width: 222px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 21.2px);
+  left: calc(50% - 110.9px);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.companySelected {
+  align-self: stretch;
+  justify-content: center;
+  position: relative;
+  opacity: 1;
+}
+.companySelected.animate {
+  animation: 1s ease 0.5s 1 normal forwards scale-up;
+}
+.offerAcceptedFunnelBar {
+  width: 153px;
+  position: relative;
+  height: 52px;
+  z-index: 0;
+}
+.offerAcceptedDataText {
+  width: 168px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 21.4px);
+  left: calc(50% - 84px);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.funnel,
+.joined,
+.offerAccepted,
+.offerAcceptedDataText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.joined,
+.offerAccepted {
+  align-self: stretch;
+  justify-content: center;
+  position: relative;
+  opacity: 1;
+}
+.offerAccepted.animate {
+  animation: 1s ease 0.6s 1 normal forwards scale-up;
+}
+.joined.animate {
+  animation: 1s ease 0.7s 1 normal forwards scale-up;
+}
+.funnel {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.totalCandidateLeads2 {
+  width: 24px;
+  position: relative;
+  background-color: #dbd7f8;
+  height: 24px;
+}
+.qualifiedCandidates1,
+.registered2 {
+  width: 24px;
+  position: relative;
+  background-color: #d6e6ff;
+  height: 25px;
+}
+.registered2 {
+  background-color: #c8efdc;
+  height: 24px;
+}
+.interviewAttended2,
+.interviewScheduled2 {
+  width: 24px;
+  position: relative;
+  background-color: #a5efca;
+  height: 24px;
+}
+.interviewAttended2 {
+  background-color: #fee5bc;
+}
+.companySelected2,
+.joined2,
+.offerAccepted2 {
+  width: 24px;
+  position: relative;
+  background-color: #fed796;
+  height: 24px;
+}
+.joined2,
+.offerAccepted2 {
+  background-color: #ffd1ba;
+  height: 25px;
+}
+.joined2 {
+  background-color: #ffb895;
+  height: 24px;
+}
+.labelsColor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px;
+}
+.offerAccepted3,
+.qualifiedCandidates2,
+.registered3,
+.totalCandidateLeads3 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  height: 21px;
+  flex-shrink: 0;
+}
+.offerAccepted3,
+.qualifiedCandidates2,
+.registered3 {
+  height: 22px;
+}
+.offerAccepted3,
+.registered3 {
+  height: 21px;
+}
+.offerAccepted3 {
+  height: 22px;
+}
+.labelsNames {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+}
+.b,
+.b1 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 21px;
+  flex-shrink: 0;
+}
+.b1 {
+  height: 22px;
+}
+.labelData {
+  width: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+  color: var(--color-darkslategray-100);
+}
+.dataLabels,
+.funnelContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.dataLabels {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 20px;
+  opacity: 0;
+  text-align: left;
+   font-size:12px;
+  /* font-size: var(--font-size-sm); */
+  color: var(--color-darkslategray-300);
+}
+.dataLabels.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-left;
+}
+.funnelContent {
+  width: 100%;
+  justify-content: center;
+  gap: 80px;
+  max-width: 2084px;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-200);
+}
+.superAdminFunnelDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.FunnelAllAdmin {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start; 
+}
+.superAdminFunnelPage {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  height: 65vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px; */
+  padding: var(--padding-61xl) var(--padding-61xl) 80px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 20px;
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+.AdminFunnelPage1 {
+  /* height: 30%; */
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* padding: var(--padding-61xl) var(--padding-61xl) 180px; */
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 22px;
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .funnel {
+    gap: var(--gap-3xs);
+  }
+  .funnelContent {
+    gap: 20px;
+    /* margin-top: 50px; */
+  }
+  .superAdminFunnelPage {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .funnel {
+    flex: unset;
+    align-self: stretch;
+  }
+  .qualifiedCandidates2,
+  .totalCandidateLeads3 {
+    text-align: left;
+  }
+  .dataLabels {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    max-width: 502px;
+    flex: unset;
+    align-self: stretch;
+  }
+  .funnelContent {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .funnel {
+    height: auto;
+  }
+}

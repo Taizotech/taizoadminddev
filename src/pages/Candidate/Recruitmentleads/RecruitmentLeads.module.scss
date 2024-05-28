@@ -1,0 +1,49 @@
+.tableSection {
+  padding: 1px;
+}
+.table {
+  width: 100%;
+  border: 1px solid #bbbbbb;
+  border-collapse: collapse;
+}
+.tableHead {
+  background-color: #bbbbbb;
+  color: rgb(53, 53, 53);
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+.tableRow {
+  margin-bottom: 1px solid #7676767c;
+}
+.FilterHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  // font-family: Cambria;
+}
+.filterAdduser {
+  display: flex;
+  flex-direction: row;
+}
+.Filterbutton {
+  padding: 8px 30px;
+  // border: none;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+.Filterbutton:hover {
+  padding: 8px 30px;
+  background-color: #169c50;
+  color: #fff;
+  border: 1px solid #169c50;
+}
+/* .table, th, td {
+    border: 1px solid black;
+  } */

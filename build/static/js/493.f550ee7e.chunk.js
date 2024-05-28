@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkadmin_login_react=self.webpackChunkadmin_login_react||[]).push([[493],{63493:(e,i,t)=>{t.d(i,{Z:()=>a});const a={BoxContainerWidth:"RegisteredCandidate_BoxContainerWidth__ndKSR","flex-container":"RegisteredCandidate_flex-container__sW+Fi",Status:"RegisteredCandidate_Status__OMeY8",qualified:"RegisteredCandidate_qualified__bknLX",Notqualified:"RegisteredCandidate_Notqualified__AW0Gj",Followup:"RegisteredCandidate_Followup__6isun"}}}]);
+//# sourceMappingURL=493.f550ee7e.chunk.js.map

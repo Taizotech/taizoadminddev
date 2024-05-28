@@ -1,0 +1,74 @@
+.notification_container {
+  display: inline !important;
+  position: absolute;
+  background-color: #1cb260;
+}
+.notification_container .noti_list_wrp {
+  display: inline-block;
+  background-color: #1cb260;
+  width: 350px !important;
+  height: 500px !important;
+  position: absolute;
+  z-index: 10 !important;
+  left: -300px;
+  top: 30px;
+  border-radius: 10px;
+  border: #bdbdbd 1px solid;
+}
+
+.notification_container .notification_item {
+  background-color: rgb(222, 255, 227);
+  padding: 5px 10px;
+  border-bottom-style: solid;
+  border-color: rgba(0, 0, 0, 0.596);
+  border-width: 2px;
+  text-align: left;
+  font-size: 17px;
+}
+
+.notification_container .notification_item.readed {
+  background-color: rgb(252, 252, 252);
+  padding: 10px;
+  border-bottom-style: solid;
+  border-color: rgba(0, 0, 0, 0.596);
+  border-width: 2px;
+}
+
+.redDot::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  color: red;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+}
+
+/* media queries  */
+
+@media only screen and (max-width: 576px) {
+  .notification_container .noti_list_wrp {
+    display: inline-block;
+    background-color: #1cb260;
+    width: 350px !important;
+    height: 500px !important;
+    position: absolute;
+    z-index: 10 !important;
+    left: -230px;
+    top: 30px;
+    border-radius: 10px;
+    border: #bdbdbd 1px solid;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+}
+/* end of media queries */

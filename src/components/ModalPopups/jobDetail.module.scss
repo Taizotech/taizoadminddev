@@ -1,0 +1,112 @@
+// * {
+//     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+//     // font-family: sans-serif;
+// }
+
+:root {
+  --green-color: #046601;
+  --Lightgreen-color: #d2f8ccbb;
+  --light-color: #fff;
+  --dark-color: #000;
+  --gray-color: #c6c5c5;
+  --LightGray-color: #f3f3f3b3;
+  --LightGray1-color: #e7e4e4d6;
+}
+
+.jobDetailsClose_Wrp {
+  position: relative;
+  display: inline-block;
+  background-color: #046601;
+}
+.jobDetailsClose_Wrp div {
+  // position: fixed;
+
+  position: absolute;
+  top: 50px;
+  left: 1100px;
+  z-index: 2;
+  background-color: black;
+}
+
+.box {
+  width: 70vw;
+  max-width: 190vw;
+  max-height: 90vh;
+  height: auto;
+
+  border: none;
+  transform: translate(-50%, -50%);
+}
+
+.job_id {
+  font-size: 14px;
+}
+
+.nav_tabr .nav_items .nav_links {
+  background-color: var(--light-color);
+  /* Default background color */
+  color: var(--gary-color);
+}
+
+.nav_tabr .nav_items.active .nav_links,
+.nav_tabr .nav_items .nav_links.active {
+  background-color: var(--Lightgreen-color);
+  color: var(--green-color);
+  font-weight: bold;
+  margin-bottom: 1px solid var(--green-color);
+}
+
+.nav_tabr .nav_items .nav_links {
+  position: relative;
+}
+
+.nav_tabr .nav_items.active .nav_links::after,
+.nav_tabr .nav_items .nav_links.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: var(--green-color);
+}
+
+.tab_content1 {
+  background-color: var(--LightGray-color);
+  margin-top: 0px;
+  padding: 40px;
+}
+
+.text_bold {
+  font-weight: bold;
+}
+
+.tab_pane {
+  display: none;
+}
+
+.tab_pane.active {
+  display: block;
+}
+
+.address {
+  background-color: var(--LightGray1-color);
+  color: var(--dark-color);
+  padding: 10px;
+  border: 1px solid black;
+}
+
+@media (max-width: 570px) {
+  .box {
+    width: 100vw;
+    // max-width: ;
+    // max-height: 90vh;
+    height: auto;
+    transform: translate(-50%, -55%);
+  }
+  .tab_content1 {
+    background-color: var(--LightGray-color);
+    margin-top: 0px;
+    padding: 3px;
+  }
+}

@@ -1,0 +1,130 @@
+.pipelineWrp {
+  background-color: #eaeef29b;
+  height: 78vh;
+  width: 95vw;
+  overflow-x: scroll;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pipelineContainer {
+  display: inline-block;
+  width: 310px;
+  height: 70vh;
+  background-color: #eaeef2;
+  border-radius: 5px;
+  // margin: 2px;
+  // padding: 5px;
+}
+.pipelineBox {
+  width: 155vw;
+  // overflow-x: scroll;
+}
+.headerCard {
+  width: 310px;
+  height: 48px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-top: 4px solid #169c50;
+  border-radius: 5px;
+}
+
+.bodyContainer::-webkit-scrollbar,
+.pipelineWrp::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  // margin-top: 5px;
+}
+
+.bodyContainer::-webkit-scrollbar-thumb,
+.pipelineWrp::-webkit-scrollbar-thumb {
+  background-color: #169c50;
+  border-radius: 0px;
+}
+
+.bodyContainer::-webkit-scrollbar-track,
+.pipelineWrp::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.bodyContainer {
+  height: 61vh;
+  margin-top: 10px;
+  overflow-y: auto;
+  width: 310px;
+  padding: 2px;
+}
+
+.bodyCard {
+  background-color: #ffffff;
+  // margin-top: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  // margin-left: auto;
+  // margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(60, 60, 60, 0.2),
+    0 6px 20px 0 rgba(63, 63, 63, 0.19);
+  border-radius: 5px;
+  border: 1.8px solid #bdbcbc;
+  padding: 2px;
+}
+.bodyCard:hover {
+  cursor: grab;
+  border: 1.8px solid #169c50;
+  padding: 2px;
+  transition: 0.3s all;
+  background-color: #989a9901;
+}
+.bodyCard > .textContent {
+  width: 100%;
+  min-height: 70px;
+  line-height: 1.5;
+  height: auto;
+}
+.candidateName {
+  color: #169c50;
+}
+.candidateName:hover {
+  color: #0591f6;
+}
+.popperWrp {
+  position: relative;
+  width: 150px !important;
+  // height: 100px !important;
+  z-index: 10;
+  background-color: aqua !important;
+}
+
+form > label {
+  font-weight: 600;
+  font-size: 14px;
+}
+.refreshcolor {
+  color: #858585;
+  font-size: 18px;
+}
+.refreshRotate {
+  display: inline-block;
+  animation: rotateAnimation 1s linear infinite;
+  color: #137e41;
+  font-size: 18px;
+}
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.faplus {
+  cursor: pointer;
+  color: #858585;
+}
+
+.faplus:hover {
+  cursor: pointer;
+  color: #169c50;
+}

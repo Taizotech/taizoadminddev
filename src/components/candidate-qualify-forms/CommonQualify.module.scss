@@ -1,0 +1,53 @@
+.radioInput input[type="radio"] {
+  display: none;
+
+}
+  .radioInput label {
+    cursor: pointer;
+}
+.radioInput input[type="radio"]:checked + label {
+  background-color: #169c5041;
+  color: #169c50;
+  border: 2px solid #169c50;
+  padding: 3px 30px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.radioInput input[type="radio"]:not(:checked) + label {
+  border: 2px solid #929393df;
+  background-color: #a9abab10;
+  color: #929393df;
+  padding: 3px 30px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center; 
+}
+
+.Heading {
+  font-size: 18px;
+  margin: 0; 
+  font-weight: bold;
+  padding: 10px;
+}
+
+.container::before { 
+  content: "";
+  border-top: 2px solid #169c50;
+  display: block;
+  margin-bottom: 0px;
+  flex-grow: 1; 
+}
+.container::after { 
+  content: "";
+  border-top: 2px solid #169c50;
+  display: block;
+  margin-bottom: 0px;
+  flex-grow: 1; 
+}

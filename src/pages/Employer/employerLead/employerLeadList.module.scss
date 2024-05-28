@@ -1,0 +1,21 @@
+.Lead_list_wrp{
+    overflow-y: auto;
+    height: 68vh;   
+    padding: 5px;
+}
+.body{
+    background-color: rgba(232, 232, 232, 0.929);
+    padding: 28px;    
+}
+
+.filter_wrp {
+    margin-top: -80px !important;
+}
+
+@media (max-width: 768px) {
+    .filter_wrp {
+            margin-top: -10px !important;
+        }
+}
+
+

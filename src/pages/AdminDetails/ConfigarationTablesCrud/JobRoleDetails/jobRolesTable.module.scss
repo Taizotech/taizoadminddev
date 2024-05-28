@@ -1,0 +1,28 @@
+@import '../../../../assets/styles/utils/varibles';
+
+
+.table_container{
+    max-width: 100%;
+    margin: 5px auto;
+    // background-color: #bfbebe;
+}
+
+.table-row:hover {
+    background-color: $grayopactiy-color;
+    // background-color:#169c5060 ;
+    /* Change to your desired hover color */
+}
+
+
+.AddroleButton {
+  background-color: #02c04124;
+  color: #169c50;
+  border: 1px solid #169c50;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.AddroleButton:hover {
+  background-color: #169c50;
+  color: #fff;
+  cursor: pointer;
+}

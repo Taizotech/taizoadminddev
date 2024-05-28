@@ -1,0 +1,10 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/b1c3d3c0-15a9-44f4-9366-5519b202fddb/resourceGroups/React-web-app/providers/Microsoft.Web/sites/Admin-react-web-app",
+    "appService.deploySubpath": "build"
+}

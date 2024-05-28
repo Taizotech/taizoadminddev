@@ -1,0 +1,23 @@
+.avatarDefaultSvgrepoCom1Icon {
+    position: relative;
+    // width: 80px;
+    // height: 100px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .addPictureBtn {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: -20px;
+  }
+  .Update_content{
+    height: 70vh;
+    overflow-y: scroll;
+  }

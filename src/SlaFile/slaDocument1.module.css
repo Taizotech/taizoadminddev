@@ -1,0 +1,486 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-3xs: 14px;
+  --font-size-2xs: 15px;
+  --font-size-sm: 19px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslategray: #393939;
+  --color-mediumseagreen: #169c50;
+
+  /* Gaps */
+  --gap-106xl: 125px;
+  --gap-3xs: 10px;
+  --gap-4xs: 9px;
+  --gap-9xs: 4px;
+  --gap-22xl: 41px;
+  --gap-13xl: 32px;
+  --gap-5xs: 8px;
+  --gap-base: 16px;
+  --gap-mid: 17px;
+  --gap-8xs: 5px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-base: 16px;
+  --padding-13xl: 32px;
+  --padding-2xl: 21px;
+  --padding-9xs: 4px;
+  --padding-8xl: 27px;
+  --padding-3xl: 22px;
+  --padding-12xs: 1px;
+}
+
+.logo-mark-icon1 {
+  height: 43px;
+  width: 43.1px;
+  position: relative;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+
+.taizoin-icon1 {
+  height: 15.6px;
+  width: 78.3px;
+  position: relative;
+}
+
+.taizo-logomark1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-8xs);
+}
+
+.taizo-technologies-private2 {
+  position: relative;
+  font-weight: 600;
+}
+
+.logo-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inner-frames,
+.service-frames {
+  position: relative;
+  overflow: hidden;
+}
+
+.inner-frames {
+  height: 1px;
+  flex: 1;
+  background-color: var(--color-darkslategray);
+}
+
+.service-frames {
+  height: 5px;
+  width: 249px;
+  background-color: var(--color-mediumseagreen);
+  flex-shrink: 0;
+  z-index: 1;
+  margin-left: -1px;
+}
+
+.s-l-a-text,
+.top-level-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.top-level-frame {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-mid);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray);
+  font-family: "Poppins" !important;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.service-level-agreement {
+  position: relative;
+  z-index: 1;
+}
+
+.s-l-a-slice {
+  display: flex;
+  position: absolute;
+  top: 100px;
+
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 20px;
+}
+
+.mask-group-icon1 {
+  height: 668px;
+  width: 297px;
+  position: absolute;
+  margin: 0 !important;
+  top: -101px;
+  left: -42px;
+  object-fit: cover;
+}
+
+.scope-and-overview1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+
+.taizo-testing1,
+.taizoin {
+  font-weight: 600;
+}
+
+.this-service-level-container {
+  align-self: stretch;
+  position: relative;
+}
+
+.scope-and-overview {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.turnaround-time-for {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+
+.taizo-testings {
+  font-weight: 600;
+}
+
+.taizoin-commits-to-container {
+  align-self: stretch;
+  position: relative;
+}
+
+.turnaround-time-for-suitable-c {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.dedicated-account-management1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+
+.taizo-testing2,
+.taizoin1 {
+  font-weight: 600;
+}
+
+.a-dedicated-account-container {
+  align-self: stretch;
+  position: relative;
+}
+
+.dedicated-account-management {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.tailored-recruitment-services1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+
+.taizo-testings1 {
+  font-weight: 600;
+}
+
+.a-committed-team-container {
+  align-self: stretch;
+  position: relative;
+}
+
+.tailored-recruitment-services {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.candidate-interview-line-up1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+
+.taizo-testings2 {
+  font-weight: 600;
+}
+
+.taizoin-will-arrange-container {
+  align-self: stretch;
+  position: relative;
+}
+
+.candidate-interview-line-up {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.position-closure {
+  font-weight: 600;
+}
+
+.position-closure,
+.taizoin-will-work {
+  align-self: stretch;
+  position: relative;
+}
+
+.postion-clousure {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.body-text2,
+.mask-group-holder {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.body-text2 {
+  flex-direction: column;
+  gap: var(--gap-base);
+  z-index: 1;
+}
+
+.mask-group-holder {
+  flex-direction: row;
+  position: relative;
+}
+
+.details-f-r-a-m-e,
+.root-f-r-a-m-e {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.details-f-r-a-m-e {
+  margin-top: 50px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-8xl) 0 var(--padding-3xl);
+  text-align: left;
+  font-size: var(--font-size-2xs);
+}
+
+.root-f-r-a-m-e {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-22xl);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray);
+  font-family: "Poppins" !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nd-floor-no51,
+.software-technology-parks1 {
+  margin: 0;
+}
+
+.software-technology-parks-container1 {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+
+.location-pin-svgrepo-com-1-11 {
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  margin: 0 !important;
+  top: 2px;
+  left: 78px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.software-park-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+
+.landline-1-icon1 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.s-l-a {
+  position: relative;
+  font-weight: 500;
+}
+
+.communication-channels {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  /* max-width: 105px; */
+}
+
+.email-svgrepo-com-3-11 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.infotaizoin4 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 77px;
+}
+
+.communication-channels1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  max-width: 91px;
+}
+
+.world-wide-web-2-11 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.wwwtaizoin1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 76px;
+}
+
+.communication-channels2,
+.info-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  padding-left: 10px;
+}
+
+.info-frame {
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-4xs);
+  /* max-width: 286px; */
+}
+
+.footer-address1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+
+.company-contact-f-r-a-m-e,
+.sla-page-1 {
+  /* width: 370px; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.SLADOC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sla-page-1 {
+  width: 195mm;
+  height: 290mm;
+  /* background-color: #169c50; */
+  /* width: 100%; */
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+
+  padding: var(--padding-xl) var(--padding-base) var(--padding-13xl)
+    var(--padding-2xl);
+  gap: 82px;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--color-darkslategray);
+  font-family: "Poppins" !important;
+  font-weight: 400;
+  font-style: normal;
+}

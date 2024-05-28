@@ -1,0 +1,131 @@
+.animate1::-webkit-scrollbar {
+  width: 0px;
+//   background-color: #cfd0d0;
+}
+
+.DailytaskBody{
+    padding: 10px;
+    height: 68vh;  
+}
+.DailytaskHeader{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #f7f8f9;
+}
+.Rowofcards{
+    display: flex;
+    flex-direction: row;
+    gap:1.5rem;
+    width: 100%;
+}
+.DailytaskSm4{
+    // height: auto;
+    flex: 1 1 50%; 
+    background-color: #f7f8f9;
+    padding: 15px;
+    
+}
+.DailytaskHead{
+    cursor: pointer;
+    transition: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    // background-color: #ffff;
+    // border-radius: 10%;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(212, 212, 212, 0.776);
+}
+.DailytaskCard1,.DailytaskCard2,.DailytaskCard3{
+    cursor: pointer;
+    
+    margin-top: 7px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    animation: fadeUp 0.5s ease-in-out;
+    animation-delay: 5s;
+    box-shadow: 0px 1px 3px rgba(139, 139, 139, 0.776);
+    
+}
+
+.animate1{
+height: 58vh;
+overflow: auto;
+}
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px); 
+        transition: 10s;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        transition: 10s;
+    }
+}
+// .DailytaskCard1:hover,.DailytaskCard2:hover,.DailytaskCard3:hover{
+//     cursor: pointer;
+//     border: 1px solid #169c50;
+//      box-shadow: none;
+//       animation:none;
+// }
+.DailytaskProfileDiv{
+    margin-top: -30px;
+     display: flex;
+    align-items: center;
+    justify-content: flex-end;   
+}
+.DailytaskProfile {
+    position: relative;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #229954;
+    border-radius: 50%;
+}
+
+.DailytaskProfilespan {
+    color: #fff;
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.DailytaskFilterButton{
+    padding: 10px 30px ;
+    background-color: #169c50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+.DailytaskFilterButton:hover{
+    background-color: #178c4a;
+    
+}
+.FullviewCard{
+    height: 75vh;
+    padding: 10px;
+    width: 100%;border-radius: 10px;
+    background-color: #fff;
+}
+
+@media (max-width:550px){
+    .Rowofcards{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    width: 100%;
+
+}
+.DailytaskSm4{
+    // height: auto;
+    flex: 1 1 50%; 
+    background-color: #f7f8f9;
+    padding: 15px;
+    
+}
+}

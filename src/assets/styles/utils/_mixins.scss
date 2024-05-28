@@ -1,0 +1,29 @@
+// @import url('..');
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+@mixin card-wrp{
+max-width: 60vw;
+width: auto;
+background-color:$light-color;
+}
+
+@mixin box-shadow($x: 10, $y: 10, $blur: 0, $color: $darkopacity-color) {
+    box-shadow: $x $y $blur $color;
+}
+
+@mixin form-wrp {
+    max-width: 400px;
+    width: 100vw;
+}
+
+@mixin scroll-view($x:200){
+    height: $x !important;
+    overflow-x: scroll !important;
+}

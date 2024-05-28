@@ -1,0 +1,226 @@
+// @import "rsuite/dist/rsuite.css";
+
+.boxmodal {
+  max-width: 400px;
+  padding: 20px;
+}
+.candidateFb {
+  // max-height: ;
+  height: 70vh;
+  overflow-y: auto;
+  // background-color: black;
+  padding: 10px;
+}
+
+.chips_wrp > input,
+.Green_wrp > input,
+.Notattended_wrp > input,
+.Followup_wrp > input {
+  display: none;
+}
+
+.chips_wrp > input + label,
+.Green_wrp > input + label,
+.Notattended_wrp > input + label,
+.Followup_wrp > input + label {
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 18px !important;
+  // color: #f44134;
+}
+
+.chips_wrp > input:checked + label {
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid #b2261c;
+  padding: 1px 10px;
+  background: rgba(178, 28, 28, 0.141);
+  color: #b2261c;
+  margin: 5px;
+  cursor: pointer;
+}
+// .Followup_wrp>input:checked+label {
+// 	text-align: center;
+// 	border-radius: 15px;
+// 	border: 1px solid #430CBA;
+// 	padding: 1px 10px;
+// 	background: #430cba27;
+// 	color: #430CBA;
+// 	margin: 5px;
+// 	cursor: pointer;
+// }
+.Notattended_wrp > input:checked + label {
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid #fa9e0a;
+  padding: 1px 10px;
+  background: #fa9e0a57;
+  color: #fa9e0a;
+  margin: 5px;
+  cursor: pointer;
+}
+.Green_wrp > input:checked + label {
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid #169c50;
+  padding: 3px 5px;
+  background: #169c503e;
+  color: #169c50;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.chips_wrp > input:not(:checked) + label {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #b2261c;
+  padding: 1px 10px;
+  background: rgba(178, 28, 28, 0.141);
+  color: #b2261c;
+  margin: 5px;
+  cursor: pointer;
+}
+.Green_wrp > input:not(:checked) + label {
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid #169c50;
+  padding: 1px 10px;
+  background: #169c503e;
+  color: #169c50;
+  margin: 5px;
+  cursor: pointer;
+}
+.Notattended_wrp > input:not(:checked) + label {
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid #fa9e0a;
+  padding: 1px 10px;
+  background: #fa9e0a3e;
+  color: #fa9e0a;
+  margin: 5px;
+  cursor: pointer;
+}
+.Followup_wrp > input:not(:checked) + label {
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid #430cba;
+  padding: 1px 10px;
+  background: #430cba27;
+  color: #430cba;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.select_wrp > input {
+  display: none;
+}
+
+.select_wrp > input + label {
+  // background-color: #1cb260;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 18px !important;
+}
+
+.Filterbutton {
+  padding: 8px 30px;
+  background-color: #fff;
+}
+.FilterHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  // font-family: Cambria;
+}
+.BoxContainerWidth {
+  min-width: 800px;
+  width: auto;
+}
+.BoxContainerEnquiry {
+  min-width: 600px;
+  width: auto;
+}
+.search {
+  padding: 8px 40px;
+  background-color: #169c33;
+  border: none;
+  color: #fff;
+}
+.TableContainer {
+  max-height: 65vh;
+  overflow: auto;
+  max-width: 100%;
+}
+// .Container{
+//   max-width: 100vw;
+//    overflow: auto;
+// }
+// .Popper{
+//   width:  20vw;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-evenly;
+// }
+.StatusStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // justify-content:flex-end;
+}
+@media (max-width: 450px) {
+  .responsive {
+    position: fixed;
+  }
+  .Container {
+    width: 100%;
+  }
+  .boxmodal {
+    max-width: 250px;
+    padding: 10px;
+  }
+  .BoxContainerWidth,
+  .BoxContainerEnquiry {
+    min-width: 100px;
+    width: auto;
+  }
+  .TableContainer {
+    max-height: 70vh;
+
+    overflow-y: scroll;
+    max-width: 600%;
+    font-size: 10px;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 1%;
+  }
+}
+@media (max-width: 992px) {
+  .TableContainer {
+    max-height: 70vh;
+    overflow-y: auto;
+    margin-left: 1%;
+    margin-right: 56%;
+    max-width: 100%;
+    font-size: small;
+  }
+  .StatusStyle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 200px;
+  }
+  .FilterHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 10px;
+    // font-family: Cambria;
+  }
+}

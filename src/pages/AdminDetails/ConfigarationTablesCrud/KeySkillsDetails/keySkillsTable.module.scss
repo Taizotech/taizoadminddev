@@ -1,0 +1,13 @@
+@import '../../../../assets/styles/utils/varibles';
+
+
+.table_container{
+    max-width: 100%;
+    margin: 5px auto;
+    // background-color: #bfbebe;
+}
+
+.table-row:hover {
+    background-color: $grayopactiy-color;
+    /* Change to your desired hover color */
+}

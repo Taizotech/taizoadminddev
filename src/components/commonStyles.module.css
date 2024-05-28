@@ -1,0 +1,26 @@
+.scrollbar_primary {
+  float: left;
+  height: 100%;
+  width: 100%;
+  background: aliceblue;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-bottom: 25px;
+  scrollbar-color: #1cb260;
+}
+.force_overflow {
+  min-height: 100%;
+}
+
+
+
+.scrollbar_primary::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f5f5f5;
+}
+
+.scrollbar_primary::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #1cb25f8c;
+}

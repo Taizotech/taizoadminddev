@@ -1,0 +1,8 @@
+/* .container-fluid {
+} */
+.container-fluid > div {
+  /* margin: 10px auto; */
+}
+/* body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+} */

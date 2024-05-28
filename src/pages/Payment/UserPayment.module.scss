@@ -1,0 +1,26 @@
+$red: rgb(240, 27, 27);
+
+.payment_form_wrp {
+  // margin-left: 15vw;
+  display: grid;
+  justify-content: space-evenly;
+}
+.payment_form_wrp form {
+  max-width: 60vw;
+  width: 90vw;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.error input {
+  border-color: $red !important;
+}
+
+.error label {
+  color: $red !important;
+}

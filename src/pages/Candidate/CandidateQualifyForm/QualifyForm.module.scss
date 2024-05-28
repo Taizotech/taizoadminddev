@@ -1,0 +1,104 @@
+// @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Roboto+Slab:wght@100..900&display=swap");
+// body {
+//   font-family: "Holtwood One SC", serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+.wrapper {
+  // font-family: "Roboto Slab", serif;
+  // font-optical-sizing: auto;
+  // font-weight: 400;
+  // font-style: normal;
+
+  display: flex;
+  margin-left: 1%;
+  // height: 100vh;
+  // width: 100vw;
+  // align-items: center;
+  // justify-content: center;
+}
+.Container {
+  width: 80vw;
+  height: auto;
+  max-height: 65vh;
+  overflow-y: auto;
+}
+.Container::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Style for scrollbar handle */
+.Container::-webkit-scrollbar-thumb {
+  background-color: #169c508e;
+  border-radius: 5px;
+}
+
+.Container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+// .wrapper {
+//   .item:nth-child(1) {
+//     background-color: red; /* Change this color based on your preference */
+//   }
+// }
+.accordion {
+  width: 100%;
+}
+.item {
+  // background-color: #169c5053;
+  background-color: #eaeaeacf;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+.title {
+  color: #169c50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.selected {
+  background-color: rgba(79, 217, 141, 0.18);
+  color: #000;
+}
+
+.content {
+  color: #169c50;
+  max-height: 0;
+  // width: 100%;
+  display: none;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.content.show {
+  display: block;
+  height: auto;
+  // overflow: auto;
+  max-height: 1000%;
+  transition: all 0.1np, 0s cubic-bezier(0, 1, 0, 1);
+}
+.radioInput input[type="radio"] {
+  display: none;
+}
+.radioInput label {
+  cursor: pointer;
+}
+.radioInput input[type="radio"]:checked + label {
+  background-color: #169c5041;
+  color: #169c50;
+  border: 2px solid #169c50;
+  padding: 3px 30px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.radioInput input[type="radio"]:not(:checked) + label {
+  border: 2px solid #606161df;
+  background-color: #aeaeae57;
+  color: #606161df;
+  padding: 3px 30px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}

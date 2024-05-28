@@ -1,0 +1,25 @@
+.login_content {
+  width: 90vw;
+  max-width: 400px;
+  height: auto;
+  /* min-height: 300px; */
+  margin: 10px auto;
+  display: grid;
+  align-content: center;
+  /* background-color: aqua; */
+}
+
+.login_btn_wrp {
+  display: grid;
+  justify-content: center;
+}
+
+.login_btn {
+  display: inline-block;
+  margin: 5px auto;
+  padding: 5px 20px;
+}
+
+.form-group.invalid input {
+  border-color: red !important;
+}

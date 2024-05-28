@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkadmin_login_react=self.webpackChunkadmin_login_react||[]).push([[222],{37222:(e,t,c)=>{c.r(t),c.d(t,{default:()=>s});const n="NotFound_error_text__ac7EI";var a=c(80184);const s=()=>(0,a.jsx)(a.Fragment,{children:(0,a.jsx)("div",{className:"text-center mt-5",children:(0,a.jsx)("h3",{className:"".concat(n),children:"404 Not Found"})})})}}]);
+//# sourceMappingURL=222.8a4a4d1f.chunk.js.map

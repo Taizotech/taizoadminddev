@@ -1,0 +1,69 @@
+@import "../../../assets/styles/utils/varibles";
+.popperListWrp{
+    background-color: white;
+    padding: 5px 0px ;
+    
+}
+
+.popperListWrp button {
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.popperListWrp> button:hover{
+    background-color: rgb(211, 211, 211);
+    // color: #16609c;
+}
+
+.TableContainer{
+      max-height: 65vh;
+  overflow-y: auto;
+  max-width: 100%;
+}
+.Register{
+    font-size: 16px;
+	font-weight: 400;
+}
+.NewLead{
+    background-color: #169C50;
+    color: #ffff;
+    border: none;
+    border-radius: 50px;
+    padding: 7px 20px;
+}
+.Topcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.filterAdduser{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:992px){
+
+.TableContainer{
+  max-height: 70vh;
+  overflow-y: auto;
+  // width: 80vw;
+  margin-left:1%;
+  margin-right: 56%;
+  max-width: 100%;
+  font-size: small;
+}
+.filterAdduser{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}.Topcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+}

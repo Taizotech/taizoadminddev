@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-be-vietnam-pro: "Be Vietnam Pro";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-mediumseagreen: #169c50;
+  --color-gray: #8c8c8c;
+  --color-darkslategray-100: #393939;
+  --color-darkslategray-200: #383838;
+
+  /* Gaps */
+  --gap-7xs: 6px;
+  --gap-xs: 12px;
+  --gap-3xs: 10px;
+  --gap-4xs: 9px;
+  --gap-9xs: 4px;
+  --gap-7xl: 26px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+}

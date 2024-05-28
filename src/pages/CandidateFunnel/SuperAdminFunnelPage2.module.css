@@ -1,0 +1,250 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.superAdminFunnel {
+  align-self: stretch;
+  position: relative;
+}
+.interviewScheduledFunnelBar {
+  width:  253px;
+  position: relative;
+  height: 52px;
+  z-index: 0;
+}
+.div,
+.interviewScheduled1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.div {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-darkslategray-100);
+}
+.interviewScheduled,
+.interviewScheduledDataText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.interviewScheduledDataText {
+  width: 222px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 21.2px);
+  left: calc(50% - 110.9px);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.interviewScheduled {
+  align-self: stretch;
+  justify-content: center;
+  position: relative;
+  opacity: 1;
+}
+.interviewScheduled.animate {
+  animation: 1s ease 0.5s 1 normal forwards scale-up;
+}
+.interviewAttendedBar {
+  width: 153px;
+  position: relative;
+  height: 52px;
+  z-index: 0;
+}
+.interviewAttendedDataText {
+  width: 168px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 21.4px);
+  left: calc(50% - 84px);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.funnel,
+.interviewAttended,
+.interviewAttendedDataText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.interviewAttended {
+  align-self: stretch;
+  justify-content: center;
+  position: relative;
+  opacity: 1;
+}
+.interviewAttended.animate {
+  animation: 1s ease 0.6s 1 normal forwards scale-up;
+}
+.interviewAttended:hover .interviewAttendedBar {
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.15));
+}
+.funnel {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 5px 0;
+}
+.interviewAttended2,
+.interviewScheduled2 {
+  width: 24px;
+  position: relative;
+  background-color: var(--color-aquamarine);
+  height: 24px;
+}
+.interviewAttended2 {
+  background-color: var(--color-wheat);
+  height: 25px;
+}
+.labelsColor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px 0;
+}
+.interviewAttended3,
+.interviewScheduled3 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  height: 21px;
+  flex-shrink: 0;
+}
+.interviewAttended3 {
+  height: 22px;
+}
+.labelsNames {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 29px 0;
+}
+.b,
+.b1 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 21px;
+  flex-shrink: 0;
+}
+.b1 {
+  height: 22px;
+}
+.labelData {
+  width: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 29px 0;
+  color: var(--color-darkslategray-100);
+}
+.dataLabels,
+.funnelContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dataLabels {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 0 19px;
+  opacity: 0;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-300);
+}
+.dataLabels.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-left;
+}
+.funnelContent {
+  width: 100%;
+  justify-content: center;
+  gap: 0 80px;
+  align-items: center;
+  max-width: 1084px;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-200);
+}
+.superAdminFunnelDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px 0;
+}
+.superAdminFunnelPage3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-61xl) var(--padding-61xl) var(--padding-475xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .funnel {
+    gap: 5px 0;
+  }
+  .funnelContent {
+    gap: 0 80px;
+  }
+  .superAdminFunnelPage3 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .funnel {
+    flex: unset;
+    align-self: stretch;
+  }
+  .interviewAttended3,
+  .interviewScheduled3 {
+    text-align: left;
+  }
+  .dataLabels {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    max-width: 502px;
+    flex: unset;
+    align-self: stretch;
+  }
+  .funnelContent {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .funnel {
+    height: auto;
+  }
+}

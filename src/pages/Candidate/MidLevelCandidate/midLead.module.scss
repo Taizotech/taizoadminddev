@@ -1,0 +1,43 @@
+.tableContainer{
+ 
+    overflow-x: auto;    
+    // width: 100vw;
+    max-width: 100vw ;  
+}
+
+.popup_container {
+    background-color: rgba(75, 75, 75, 0.806);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    position: fixed;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+
+}
+
+
+.checkbox {
+  cursor: pointer;
+  width: 40px;
+  transform: scale(1.8);
+}
+
+.checked {
+  background-color: green;
+  color: rgb(138, 17, 17);
+}
+
+ @media (max-width:570px) {
+.tableContainer {
+        
+        overflow-x: scroll;
+        // width: 100vw;
+        max-width: 100vw;
+        padding-left: 20px;
+
+    }
+ }

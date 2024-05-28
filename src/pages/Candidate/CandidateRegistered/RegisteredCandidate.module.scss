@@ -1,0 +1,60 @@
+.BoxContainerWidth{
+  min-width: 80vw;
+  width: auto;
+  overflow-y: auto;
+  max-height: 65vh;
+  padding: 15px;
+  
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  /* Other styling properties for your flex container */
+}
+.Status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.qualified{
+    background-color: rgba(0, 128, 0, 0.176);
+    color: #169C50;
+    border: 1px solid #169C50;
+    padding: 1px 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+.Notqualified{
+    background-color: rgba(128, 0, 0, 0.176);
+    color: #d92121;
+    border: 1px solid #d92121;
+    padding: 1px 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+.Followup{
+	text-align: center;
+	border-radius: 15px;
+	border: 1px solid #430CBA;
+	padding: 1px 10px;
+	background: #430cba27;
+	color: #430CBA;
+	margin: 5px;
+	cursor: pointer;
+}
+@media (max-width: 767px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 567px) {
+  .BoxContainerWidth {
+      min-width: 90vw;
+      width: auto;
+      padding: 15px;
+      overflow-y: auto;
+      max-height: 65vh;
+    }
+}

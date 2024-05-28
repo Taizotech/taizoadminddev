@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$line-height: 10px;
+$font-size: 14px;
+
+.Line_height {
+  line-height: $line-height;
+}
+
+.tab_content1 {
+  background-color: var(--LightGray-color);
+  margin-top: 0px;
+  padding: 10px;
+  width: 100%;
+  font-size: $font-size;
+}
+
+.box {
+  width: 60%;
+  max-width: auto;
+  max-height: 95vh;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+.custom_line_height {
+  line-height: 1;
+}
+
+@media (max-width:380px) {
+
+  .box {
+    width: 20%;
+    max-width: auto;
+    max-height: 95vh;
+    height: auto;
+    transform: translate(-0%, 0%);
+
+  }
+}
+
+@media (max-width: 768px) {
+  .box {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    width: 90%;
+  }
+}
